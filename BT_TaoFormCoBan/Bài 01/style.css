@@ -1,0 +1,25 @@
+.column {
+    float: left;
+    width: auto;
+    height: 30%
+
+}
+
+fieldset {
+    width: 30%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+    background: orangered;
+}
+
+.row {
+    margin-top: 30px;
+    text-align: center;
+    width: 50%;
+}
+.texred{
+    color: #ff2c72;
+}

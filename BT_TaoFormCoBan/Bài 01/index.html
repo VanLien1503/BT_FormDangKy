@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form DK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tạo 1 Form Đăng Ký </h1>
+<hr>
+<form action="http://google.com" method="post">
+    <fieldset>
+        <h2>SỞ THÍCH CỦA BẠN</h2>
+        <div>
+            <label class="label-control" for="name">HọVàTên:</label>
+            <input type="text" id="name" name="fullName"><br> <br>
+            <label class="label-control" for="email"> Email:</label>
+            <input type="text" id="email" name="Email" style="margin-left: 25px">
+        </div>
+        <div>
+            <div class="column">
+                <p class="label-control">Sở Thích :</p>
+            </div>
+            <div class="column">
+                <label class="texred"><input type="checkbox" name="hobby" value="TheThao">Thể Thao</label><br>
+                <label class="texred"><input type="checkbox" name="hobby" value="LuotWeb">Lướt Web</label> <br>
+                <label class="texred"><input type="checkbox" name="hobby" value="DuLich">Du Lịch</label>
+            </div>
+            <div class="column">
+                <label class="texred"><input type="checkbox" name="hobby" value="AmNhac">Âm Nhạc</label> <br>
+                <label class="texred"><input type="checkbox" name="hobby" value="ChoiGame">Chơi Game</label>
+            </div>
+            <div class="column">
+                <label class="texred"><input type="checkbox" name="hobby" value="DocSach">Đọc Sách</label> <br>
+                <label class="texred"><input type="checkbox" name="hobby" value="DienAnh">Điện Ảnh</label>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Gửi Thông Tin">
+            <input type="reset" value="Reset">
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
